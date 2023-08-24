@@ -1,7 +1,9 @@
+import Home from "../components/Home";
+
 export default function IndexPage(){
     return(
         <div>
-            <div className="underline">Hello World</div>
+            <Home/>
         </div>
     )
 }
